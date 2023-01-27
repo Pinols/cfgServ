@@ -5,12 +5,6 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
-  main:
-    allow-bean-definition-overriding: true
-  elasticsearch:
-    password: bIBas8zvAitjDdSeSWwf
-    username: elastic
-    
 
 server:
   port: 8081
