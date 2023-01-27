@@ -10,4 +10,4 @@ server:
   port: 8081
 
 print:
-  me: Dev profile
+  me: Devprofile
