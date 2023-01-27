@@ -7,6 +7,9 @@ spring:
       ddl-auto: update
   elasticsearch:
     uris: https://localhost:9200
+    password: 5Jl3+OLF2pjbC+6RK*en
+    username: elastic
+    
 server:
   port: 8081
 
