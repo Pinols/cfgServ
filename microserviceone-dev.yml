@@ -11,3 +11,7 @@ server:
 
 print:
   me: Dev profile
+
+spring:
+  elasticsearch:
+    uris: https://localhost:9200
