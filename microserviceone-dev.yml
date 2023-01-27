@@ -5,13 +5,10 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
-
+  elasticsearch:
+    uris: https://localhost:9200
 server:
   port: 8081
 
 print:
   me: Dev profile
-
-spring:
-  elasticsearch:
-    uris: https://localhost:9200
