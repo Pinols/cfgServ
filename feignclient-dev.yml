@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: feignclient
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 8082
+
+print:
+  me: Devprofile
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761
+  instance:
+    preferIpAddress: true
