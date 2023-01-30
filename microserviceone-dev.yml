@@ -11,3 +11,10 @@ server:
 
 print:
   me: Devprofile
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761
+  instance:
+    preferIpAddress: true
