@@ -7,7 +7,7 @@ spring:
       ddl-auto: update
 
 server:
-  port: 8082
+  port: 0
 
 print:
   me: Devprofile
